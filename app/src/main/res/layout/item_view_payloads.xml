@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="110dp"
+    tools:background="#ff0">
+
+    <ImageView
+        android:id="@+id/item_payloads_pic"
+        android:layout_width="160dp"
+        android:layout_height="100dp"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="22dp"
+        android:scaleType="centerCrop"
+        tools:src="@mipmap/ic_launcher"/>
+
+    <TextView
+        android:id="@+id/item_payloads_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/item_payloads_pic"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_toRightOf="@id/item_payloads_pic"
+        android:textColor="#000"
+        android:textSize="16sp"
+        tools:text="名字"/>
+
+
+    <TextView
+        android:id="@+id/item_payloads_desc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/item_payloads_pic"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@id/item_payloads_pic"
+        android:textSize="16sp"
+        tools:text="描述"/>
+</RelativeLayout>

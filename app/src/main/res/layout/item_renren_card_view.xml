@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="270dp"
+    android:layout_height="330dp"
+    android:clickable="true"
+    android:foreground="?android:attr/selectableItemBackground"
+    app:cardBackgroundColor="#393F4E"
+    app:cardPreventCornerOverlap="true">
+
+    <!--
+     cardPreventCornerOverlap
+    在v20和之前的版本中添加内边距，这个属性是为了防止卡片内容和边角的重叠 ,
+    默认为 true, 这样就会添加内边距, 图片到圆角之间就有间隙
+  -->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <ImageView
+            android:id="@+id/renren_card_pic_iv"
+            android:layout_width="170dp"
+            android:layout_height="200dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:scaleType="centerCrop"
+            tools:src="@drawable/a4"/>
+
+
+        <TextView
+            android:id="@+id/renren_card_name_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/renren_card_pic_iv"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="7dp"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            tools:text="佐藤和真"/>
+
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="45dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="15dp"
+            android:background="@drawable/selector_favor_bg"
+            android:clickable="true"
+            android:gravity="center"
+            android:text="订阅"
+            android:textColor="#000"
+            android:textSize="16sp"/>
+
+
+        <TextView
+            android:id="@+id/renren_card_index_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="10dp"
+            android:layout_marginRight="10dp"
+            android:textColor="@color/white"
+            android:textSize="14sp"
+            tools:text="1/4"/>
+
+        <ImageView
+            android:id="@+id/renren_card_iv_love"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:alpha="0"
+            android:src="@drawable/icon_love"
+            tools:alpha="255"/>
+
+        <ImageView
+            android:id="@+id/renren_card_iv_del"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_margin="20dp"
+            android:alpha="0"
+            android:src="@drawable/icon_del"
+            tools:alpha="255"/>
+
+    </RelativeLayout>
+</android.support.v7.widget.CardView>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#5c5c5c">
+
+    <com.ttyun.recyclerviewwiki.tantan.widget.CircleImageView
+        android:id="@+id/iv"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_centerInParent="true"
+        android:src="@drawable/img_avatar_03"/>
+
+    <!--<com.ttyun.recyclerviewwiki.hive.widget.HiveView
+        android:id="@+id/iv"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_centerInParent="true"
+        android:background="#fff"
+        android:src="@drawable/img_avatar_01"
+        app:orientation="horizontal"/>-->
+
+    <!-- <com.ttyun.recyclerviewwiki.tantan.widget.trapezoid.TrapezoidViewBS
+         android:id="@+id/iv"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_centerInParent="true"
+         android:src="@drawable/img_avatar_01"
+         />-->
+
+    <!-- <ImageView
+         android:id="@+id/iv"
+         android:layout_width="200dp"
+         android:layout_height="200dp"
+         android:layout_centerInParent="true"
+         tools:src="@drawable/img_avatar_03"/>-->
+    <!-- android:scaleType="centerCrop"-->
+</RelativeLayout>

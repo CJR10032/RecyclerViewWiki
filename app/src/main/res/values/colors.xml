@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <!-- 九宫格 item被点击的背景 -->
+    <color name="grid_item_press">#50bebe</color>
+    <!-- 九宫格 item普通状态的背景 #6aa74f-->
+    <color name="grid_item_normal">#55caca</color>
+
+    <color name="white">#FFFFFF</color>
+    <!-- MainActivity 里面 我的 文字被点击时候的颜色 -->
+    <color name="my_text_press">#989898</color>
+
+    <color name="translucent">#00000000</color>
+</resources>
