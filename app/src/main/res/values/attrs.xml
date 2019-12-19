@@ -1,15 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <declare-styleable name="RoundImageView">
-        <attr name="radius" format="reference|dimension"/>
+    <declare-styleable name="CornerImageView">
+        <!--左上角圆角尺寸-->
+        <attr name="leftTopRadius" format="reference|dimension" />
+        <!--右上角圆角尺寸-->
+        <attr name="rightTopRadius" format="reference|dimension" />
+        <!--左下角圆角尺寸-->
+        <attr name="leftBottomRadius" format="reference|dimension" />
+        <!--右下角圆角尺寸-->
+        <attr name="rightBottomRadius" format="reference|dimension" />
     </declare-styleable>
 
     <declare-styleable name="HiveView">
         <attr name="orientation">
             <!-- Defines an horizontal widget. -->
-            <enum name="horizontal" value="0"/>
+            <enum name="horizontal" value="0" />
             <!-- Defines a vertical widget. -->
-            <enum name="vertical" value="1"/>
+            <enum name="vertical" value="1" />
         </attr>
     </declare-styleable>
 </resources>
